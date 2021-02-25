@@ -55,6 +55,14 @@
         </junit>
     </target>
 
+    <target name="dist" depends="run">
+      <jar destfile="StandardPlugin.jar" basedir="${main.build.dir}">
+        <fileset dir="${basedir}">
+          <include name="*.yml"/>
+        </fileset>
+      </jar>
+    </target>
+    
     <target name="clean">
         <delete>
             <fileset dir="${basedir}" includes="**/*.class" />
