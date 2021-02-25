@@ -14,9 +14,9 @@
 
     <path id="classpath.base">
         <pathelement location="${main.build.dir}"/>
-        <pathelement location="lib/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar" />
-        <pathelement location="lib/Essentials-2.x-SNAPSHOT.jar" />
-        <pathelement location="lib/JSONAPI.jar" />
+        <pathelement location="lib/spigot-1.16.4.jar" />
+        <pathelement location="lib/EssentialsX-2.17.0.3.jar" />
+        <pathelement location="lib/jsonapi-5.10.0-mc1.15.2-R0.1-SNAPSHOT.jar" />
         <pathelement location="lib/simplyvanish.jar" />
     </path>
 
